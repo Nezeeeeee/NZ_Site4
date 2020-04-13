@@ -1,35 +1,33 @@
-*{
+
+body, h2, p{
     margin: 0;
     padding: 0;
 }
-div{
-    margin: 10px;
-    border: 1px solid black;
-    font-size: 20px;
-    height: 80px;
+body{
+    font-size: 18px;
 }
 #header{
-    background-color: #ccc;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    height: 80px;
 }
-#sidebar{
-    background-color: #bbb;
-    float: right;
-    width: 150px;
-}
-#main{
-    background-color: #fafafa;
-    height: 200px;
-    margin-right: 170px;
+#wrapper{
+    background-color: #ddd;
 }
 #menu{
-    background-color: #ddd;
-    float: right;
-    width: 160px;
+    float: left;
+    width: 150px;
 }
-#content{
-    background-color: #eee;
-    margin-right: 180px;
+
+
+#main{
+    background-color: #f7f7f7;
+    border-left: 1px solid #ccc;
+    margin-left: 150px;
+    padding: 10px;
 }
+
 #footer{
-    background-color: #ccc;
+    border-top: 1px solid #ccc;
+    background-color: #dedede;
 }
