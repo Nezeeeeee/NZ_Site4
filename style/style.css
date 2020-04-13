@@ -11,15 +11,22 @@ div{
 #header{
     background-color: #ccc;
 }
-#sidebar{
+#leftSidebar{
     background-color: #ddd;
+    float: left;
+    width: 150px;
+}
+#rightSidebar{
+    background-color: #bbb;
     float: right;
     width: 150px;
 }
 #main{
     background-color: #eee;
     height: 200px;
-    margin-right: 200px;
+    margin-left: 170px;
+    margin-right: 170px;
+    
 }
 #footer{
     background-color: #ccc;
